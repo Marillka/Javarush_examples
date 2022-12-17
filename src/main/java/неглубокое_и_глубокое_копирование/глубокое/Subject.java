@@ -10,7 +10,6 @@ public class Subject implements Cloneable {
     public Subject() {
         subjects = new HashSet<>(Arrays.asList("Maths", "Science", "English", "History"));
     }
-
     @Override
     public Subject clone() throws CloneNotSupportedException {
         Subject obj = (Subject)super.clone();
