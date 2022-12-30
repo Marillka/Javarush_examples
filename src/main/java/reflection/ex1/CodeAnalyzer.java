@@ -1,4 +1,4 @@
-package reflection;
+package reflection.ex1;
 
 import java.util.Arrays;
 

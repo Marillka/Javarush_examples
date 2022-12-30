@@ -1,4 +1,4 @@
-package reflection;
+package reflection.ex1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,7 +14,7 @@ public class Main {
 //        Cat cat = null;
 //
 //        try {
-//            clazz = Class.forName("reflection.Cat");
+//            clazz = Class.forName("reflection.ex1.Cat");
 //            Class[] catClassParams = {String.class, int.class};
 //            cat = (Cat) clazz.getConstructor(catClassParams).newInstance("Barsik", 6);
 //        } catch (ClassNotFoundException e) {
@@ -34,7 +34,7 @@ public class Main {
         Cat cat = null;
 
         try {
-            clazz = Class.forName("reflection.Cat");
+            clazz = Class.forName("reflection.ex1.Cat");
             cat = (Cat) clazz.newInstance();
 
             cat.setName("Barsik");
