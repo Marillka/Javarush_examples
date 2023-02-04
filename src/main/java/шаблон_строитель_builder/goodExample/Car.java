@@ -1,8 +1,4 @@
-package шаблон_строитель_builder.example;
-
-import шаблон_строитель_builder.example.Engine;
-
-import java.util.Locale;
+package шаблон_строитель_builder.goodExample;
 
 public class Car {
     private Engine engine;
