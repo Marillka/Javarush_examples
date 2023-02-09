@@ -1,6 +1,14 @@
-package структурные_паттерны.decorator.ex2;
+package структурные_паттерны.facade.ex2;
+
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 public class BankCard implements Account, TransportCard {
+
+    private static final Logger log = LoggerFactory.getLogger(BankCard.class);
+
     private String id;
     private BankAccount defaultAccount;
     private TransportCard transportCard;

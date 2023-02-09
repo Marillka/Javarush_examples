@@ -1,4 +1,4 @@
-package структурные_паттерны.decorator.ex2;
+package структурные_паттерны.facade.ex2;
 
 import java.util.List;
 
