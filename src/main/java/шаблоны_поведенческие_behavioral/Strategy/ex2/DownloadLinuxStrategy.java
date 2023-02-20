@@ -1,8 +1,8 @@
 package шаблоны_поведенческие_behavioral.Strategy.ex2;
 
-public class DownloadWindowsStrategy implements Strategy {
+public class DownloadLinuxStrategy implements  Strategy{
     @Override
     public void download(String file) {
-        System.out.println("windows download: " + file);
+        System.out.println("linux download: " + file);
     }
 }
